@@ -1,0 +1,31 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* position: relative; */
+  font-family: "Rubik", sans-serif;
+  background-color: #fff;
+}
+
+.btn {
+  text-decoration: none;
+  color: #fff;
+  padding: 1rem 2rem;
+  display: inline-block;
+  border-radius: 100px;
+  font-size: 1.4rem;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transform: scale(1.2);
+}

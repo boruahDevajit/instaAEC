@@ -1,0 +1,45 @@
+@media (max-width: 65.5em) {
+  .content-box {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .container {
+    width: 80rem;
+  }
+}
+
+@media (max-width: 52.25em) {
+  .container {
+    width: 70rem;
+  }
+  html {
+    font-size: 55% !important;
+  }
+}
+
+@media (max-width: 40.625em) {
+  .container {
+    width: 60rem;
+  }
+}
+
+@media (max-width: 34.375em) {
+  .container {
+    width: 50rem;
+  }
+}
+
+@media (max-width: 30.625em) {
+  .container {
+    width: 40rem;
+  }
+  .content-box {
+    grid-template-columns: 1fr;
+    row-gap: 3rem;
+  }
+}
+
+@media (max-width: 25em) {
+  .container {
+    width: 30rem;
+  }
+}
