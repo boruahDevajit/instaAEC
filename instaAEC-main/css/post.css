@@ -1,0 +1,107 @@
+.container {
+  width: 100rem;
+  margin: 0 auto;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+.post__box {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  background-color: #e9ecef;
+
+  padding: 2rem;
+
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.post {
+  margin-bottom: 3rem;
+}
+
+.post__name,
+.post__article {
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.6rem;
+}
+
+input {
+  height: 3.5rem;
+  width: 70%;
+  padding: 1rem 1.5rem;
+  border: none;
+  border-radius: 3px;
+  transition: all 0.3s;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0 1rem 2rem rgba(#000, 0.1);
+  border-bottom: 3px solid #51cf66;
+}
+
+input::-webkit-input-placeholder {
+  color: #333;
+}
+
+input:focus:invalid {
+  border-bottom: 3px solid red;
+}
+
+.img__box {
+}
+
+.upload {
+  font-size: 1.4rem;
+}
+
+.btn__green {
+  background-color: #51cf66;
+  margin-top: 2rem;
+}
+
+.btn__red {
+  background-color: #f76707;
+  position: absolute;
+  top: 4%;
+  left: 4%;
+}
+
+/* Queries */
+@media (max-width: 50em) {
+  .post__box {
+    width: 60%;
+  }
+}
+
+@media (max-width: 37.5em) {
+  .post__box {
+    width: 70%;
+  }
+}
+
+@media (max-width: 31.25em) {
+  .post__box {
+    width: 85%;
+  }
+  html {
+    font-size: 55% !important;
+  }
+}
+
+@media (max-width: 23.125em) {
+  .post__box {
+    width: 90%;
+  }
+  html {
+    font-size: 55% !important;
+  }
+}
+/* Queries */
